@@ -8,3 +8,5 @@
   and fill the arrays:
   - "gains[i]": expected gain from laptop 'i'
   - "price[i]": cost of laptop 'i'
+    
+And after that you will recieve your capital at the end of the summer.
