@@ -8,10 +8,10 @@ struct Laptop {
 	int price;
 	int gain;
 };
-bool compareByPrice(const Laptop& a, const Laptop& b) {
+bool static compareByPrice(const Laptop& a, const Laptop& b) {
 	return a.price < b.price;
 }
-int maximizeCapital(int N, int C, const vector<int>& gains, const vector<int>& prices) {
+int static maximizeCapital(int N, int C, const vector<int>& gains, const vector<int>& prices) {
     int K = gains.size();
 
     vector<Laptop> laptops(K);
@@ -43,18 +43,4 @@ int maximizeCapital(int N, int C, const vector<int>& gains, const vector<int>& p
     }
 
     return C;
-}
-
-
-
-
-finalCapital = initialCapital + sumOfSelectedGains;
-
-int main()
-{
-	int N, C;
-	int* gainsArray = new int[N];
-	int* priceArray = new int[N];
-
-	
 }

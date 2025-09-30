@@ -1,4 +1,4 @@
-
+#include "D:\Diana\dev\progects\Student’s capital\Student’s capital\Student’s capital.cpp"
 int main() {
     int N, C, K;
     cout << "Enter N: ";
